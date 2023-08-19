@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			
+			<!-- Название страницы -->
+			<title>GulnaraWeb</title>
+			
+			<!-- Подключение CSS Файла -->
+			<link href="Basic.css" rel="stylesheet" type="text/css">
+			
+			<link href="../Base_style_and_script/loader.css" rel="stylesheet" type="text/css">
+			<!-- Подключение шрифтов -->
+			<link href="fonts.css" rel="stylesheet" type="text/css">
+			
+						<!-- Подключение Jquery -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" defer></script>
+			
+			<meta name="viewport" content="width=device-width">
+
+			<!-- Подключение JS файла -->
+			<script src="Basic.js" defer></script>
+			<!-- Стили для прелоудера-->
+		</head>
+		<!-- Начало кода -->
+		<body>
+		<!-- Шапка страницы -->
+			<header class="header">
+				<div class="container">
+					<div class="header__body">
+						<div class="header__logo">
+						<a href="#" class="header__logo">Gulnara Kuspakova</a>
+						</div>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li>
+									<a href="#" class="header__link">Главная</a>
+								</li>
+								<li>
+									<a href="#" class="header__link">Био</a>
+								</li>
+								<li>
+									<a href="#" class="header__link">Календарь</a>
+								</li>
+								<li>
+									<a href="#" class="header__link" onclick="choosePageGallerey()">Галерея</a>
+								</li>
+								<li>
+									<a href="#" class="header__link">Контакты</a>
+								</li>
+								<li>
+									<a href="#" class="header__link">Язык</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- НАчало контента -->
+			<div class="content__text">
+				<div class="img__header"> 
+					<img src="../img/headfirst.png" alt="ALT">
+				</div>	
+					<div class="bio">
+						<div class="block__bio">
+							<div class="container">
+								<h1>Биография</h1>
+								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+								<p><i>"Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так."</p><i/>
+									<p class="p__quote"><b>-Lorem Ipsum</b></p></p>
+								<p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца.</p>
+							</div>
+					</div>
+				</div>
+				<div class="calendar">
+					<div class="calendar-bar">
+						<div class="text-calendar">
+							<h1>Календарь</h1>
+							<h2><i><a href="">Здесь ваш текст</a></i></h2>
+							<h3>2023.03.23</h3>
+							<hr>
+							<h2><i><a href="">Здесь ваш текст</a></i></h2>
+							<h3>2023.03.23</h3>
+							<hr>
+							<h2><i><a href="">Здесь ваш текст</a></i></h2>
+							<h3>2023.03.23</h3>
+							<hr>
+							<h2><i><a href="">Здесь ваш текст</a></i></h2>
+							<h3>2023.03.23</h3>
+							<hr>
+						</div>
+				</div>
+				</div>
+				<footer class="footer-section">
+					<div class="container">
+							<div class="footer-cta pt-5 pb-5">
+									<div class="row">
+											<div class="col-xl-4 col-md-4 mb-30">
+													<div class="single-cta">
+															<i class="fas fa-map-marker-alt"></i>
+															<div class="cta-text">
+																	<h4>Веб сайт сделан</h4>
+																	<span>в 2023 году</span>
+															</div>
+													</div>
+											</div>
+											<div class="col-xl-4 col-md-4 mb-30">
+													<div class="single-cta">
+															<i class="fas fa-phone"></i>
+															<div class="cta-text">
+																	<h4>Номер телефона</h4>
+																	<span>+7 (965)-401-59-14</span>
+															</div>
+													</div>
+											</div>
+											<div class="col-xl-4 col-md-4 mb-30">
+													<div class="single-cta">
+															<i class="far fa-envelope-open"></i>
+															<div class="cta-text">
+																	<h4>Майл</h4>
+																	<span>vaceslavchek667689@gmail.com</span>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+							<div class="footer-content pt-5 pb-5">
+									<div class="row">
+											<div class="col-xl-4 col-lg-4 mb-50">
+													<div class="footer-widget">
+															<div class="footer-logo">
+																	<a href="index.html">Gulnara Kuspakova</a>
+															</div>
+															<div class="footer-text">
+																	<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+																	elit,Lorem ipsum dolor sit amet.</p>
+															</div>
+															<div class="footer-social-icon">
+																	<span>Следите за Гульнарой в</span>
+																	<a href="#"><i class="fab fa-facebook-f facebook-bg">Facebook</i></a>
+																	<a href="#"><i class="fab fa-twitter twitter-bg">Telegram</i></a>
+																	<a href="#"><i class="fab fa-google-plus-g google-bg">VK</i></a>
+															</div>
+													</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+													<div class="footer-widget">
+															<div class="footer-widget-heading">
+																	<h3>Полезные ссылки</h3>
+															</div>
+															<ul>
+																	<li><a href="#">Главная</a></li>
+																	<li><a href="#">Био</a></li>
+																	<li><a href="gallerey/index.html">Галерея</a></li>
+																	<li><a href="#">Календарь</a></li>
+																	<li><a href="#">Контакты</a></li>
+																	<li><a href="#">Язык</a></li>
+																	<li><a href="#">Расширенная галерея</a></li>
+																	<li><a href="#">Расширенные контакты</a></li>
+																	<li><a href="#">Расширенный календарь</a></li>
+																	<li><a href="#">Подвал</a></li>
+															</ul>
+													</div>
+											</div>
+											<div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+													<div class="footer-widget">
+															<div class="footer-widget-heading">
+																	<h3>Напиши свой отзыв</h3>
+															</div>
+															<div class="footer-text mb-25">
+																	<p>Не забудьте подписаться на мои каналы, пожалуйста, заполните форму ниже</p>
+															</div>
+															<div class="subscribe-form">
+																	<form action="#">
+																			<input type="text" placeholder="Отзыв">
+																			<button><i class="fab fa-telegram-plane"></i></button>
+																	</form>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+					<div class="copyright-area">
+							<div class="container">
+									<div class="row">
+											<div class="col-xl-6 col-lg-6 text-center text-lg-left">
+													<div class="copyright-text">
+															<p>Copyright &copy; 2023, Gulnara Kuspakova</p>
+													</div>
+											</div>
+											<div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+													<div class="footer-menu">
+															<ul>
+																	<li><a href="#">Главная</a></li>
+																	<li><a href="#">Био</a></li>
+																	<li><a href="gallerey/index.html">Галерея</a></li>
+																	<li><a href="#">Контакты</a></li>
+																	<li><a href="#">Календарь</a></li>
+															</ul>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+				</footer>
+		</body>
+	</html>
