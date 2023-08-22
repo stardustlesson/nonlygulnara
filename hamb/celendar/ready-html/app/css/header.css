@@ -6,6 +6,34 @@
 	font-family: FontFooter;
 	src: url(./fonts/titlefooter.ttf);
 }
+
+body.red {
+	background:linear-gradient(90deg, #f598a8, #f6edb2);
+	background-size: 400% 500%;
+	animation: gradient 10s ease infinite;
+}
+body.violet {
+	background:linear-gradient(21deg, #dd03e4, #5611ec);
+	background-size: 400% 500%;
+	animation: gradient 10s ease infinite;
+}
+body.blue {
+	background:linear-gradient(90deg, #aea4e3, #d3ffe8);
+	background-size: 400% 500%;
+	animation: gradient 10s ease infinite;
+}
+body.skystyle {
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background-size: 400% 500%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {background-position: 0 50%;}
+	50% {background-position: 100% 50%;}
+	100%{background-position: 0 50%}
+}
+
 .header {
 	position: fixed;
 	width: 100%;
@@ -106,3 +134,22 @@
 		max-width: 100%;
 		height: auto;
 	}
+@media (max-width: 860px) {
+	.dd {
+		display: none;
+	}
+	.header__list a{
+		font-size: 24px;
+	}
+	.header__logo {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 400px) {
+	.header__list {
+		font-size: 16px;
+	}
+	.header__logo a {
+		font-size: 26px;
+	}
+}
