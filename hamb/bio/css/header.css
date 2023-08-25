@@ -7,33 +7,6 @@
 	src: url(./fonts/titlefooter.ttf);
 }
 
-body.red {
-	background:linear-gradient(90deg, #f598a8, #f6edb2);
-	background-size: 400% 500%;
-	animation: gradient 10s ease infinite;
-}
-body.violet {
-	background:linear-gradient(21deg, #C689B4, #270B12);
-	background-size: 400% 500%;
-	animation: gradient 10s ease infinite;
-}
-body.blue {
-	background:linear-gradient(90deg, #aea4e3, #d3ffe8);
-	background-size: 400% 500%;
-	animation: gradient 10s ease infinite;
-}
-body.skystyle {
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-	background-size: 400% 500%;
-	animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-	0% {background-position: 0 50%;}
-	50% {background-position: 100% 50%;}
-	100%{background-position: 0 50%}
-}
-
 .header {
 	position: fixed;
 	width: 100%;
@@ -54,7 +27,7 @@ body.skystyle {
 	z-index: 3;
 }
 
-.container {
+.containerd {
 	max-width: 1180px;
 	margin: 0px auto;
 	padding:0px 10px;
